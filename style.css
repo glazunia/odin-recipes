@@ -3,21 +3,28 @@
     font-family: Monaco, "Lucida Console", monospace;
     color: hsl(25, 7%, 19%);
 }
+
 body {
     margin: 5vw 22vw 5vw 22vw;
 }
-h1, h2 {
+
+h1,
+h2 {
     text-align: center;
     color: hsl(9, 80%, 65%);
     font-weight: bold;
 }
-p, li {
+
+p,
+li {
     text-align: justify;
 }
+
 ul {
     list-style-image: url("./images/flower.png");
     line-height: 25px;
 }
+
 img {
     width: 65%;
     height: auto;
@@ -26,26 +33,32 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
 .bordered {
     border: 3px dashed hsl(9, 80%, 65%);
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .recipe-list {
     width: 75%;
 }
+
 .description {
     width: 85%;
     padding: 0.8em 1.2em;
 }
+
 .steps {
     width: 90%;
     padding: 0.5em 1.3em 0.5em 0.5em;
 }
+
 .ingredients {
     text-decoration: underline 0.1em hsl(9, 80%, 65%);
 }
+
 .back {
     text-align: center;
     font-size: 85%;
